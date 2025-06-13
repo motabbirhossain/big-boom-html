@@ -1,0 +1,89 @@
+body {
+  font-family: $zoomvilla-font;
+  color: $zoomvilla-text;
+  font-size: $body-size;
+  line-height: $body-line-height;
+  font-weight: 400;
+}
+
+body.locked {
+  overflow: hidden;
+}
+
+a {
+  color: $zoomvilla-base;
+  transition: all 400ms ease;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+
+::placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $zoomvilla-heading-font;
+  color: $zoomvilla-black;
+
+  br {
+    @media (max-width: 575px) {
+      display: none;
+    }
+  }
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  br {
+    @media (max-width: 575px) {
+      display: none;
+    }
+  }
+}
+
+::placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+
+.container-fluid,
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+.gutter-y-31{
+    --bs-gutter-y: 31px;
+}
+.gutter-x-31{
+  --bs-gutter-x: 31px;
+}
+
+
+
+

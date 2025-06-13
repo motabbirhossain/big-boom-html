@@ -1,0 +1,23 @@
+:root {
+	--zoomvilla-font: 'Acumin Pro', sans-serif;
+	--zoomvilla-heading-font: 'Acumin Pro', sans-serif;
+	--zoomvilla-text: #92918F;
+	--zoomvilla-text-rgb: #{toRGB(#92918F)};
+	--zoomvilla-base: #484847;
+	--zoomvilla-base-rgb: #{toRGB(#484847)};
+	--zoomvilla-black: #484847;
+	--zoomvilla-black-rgb: #{toRGB(#484847)};
+	--zoomvilla-white: #FFFFFF;
+	--zoomvilla-white-rgb: #{toRGB(#FFFFFF)};
+}
+
+$zoomvilla-font:var(--zoomvilla-font, 'Acumin Pro', sans-serif);
+$zoomvilla-heading-font:var(--zoomvilla-heading-font, 'Acumin Pro', sans-serif);
+$zoomvilla-text:var(--zoomvilla-text, #92918F);
+$zoomvilla-text-rgb:var(--zoomvilla-text2-rgb, #{toRGB(#5E5B5B)});
+$zoomvilla-base:var(--zoomvilla-base, #484847);
+$zoomvilla-base-rgb:var(--zoomvilla-base-rgb, #{toRGB(#484847)});
+$zoomvilla-white:var(--zoomvilla-white, #FFFFFF);
+$zoomvilla-white-rgb:var(--zoomvilla-white-rgb, #{toRGB(#FFFFFF)});
+$zoomvilla-black:var(--zoomvilla-black, #484847);
+$zoomvilla-black-rgb:var(--zoomvilla-black-rgb, #{toRGB(#484847)});
